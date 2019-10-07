@@ -1,4 +1,4 @@
-public class test3 {
+public class CondicionalIf {
     public static void main (String[] args) {
         char variable = '1';
 

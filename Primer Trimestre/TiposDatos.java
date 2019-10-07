@@ -1,4 +1,4 @@
-public class test4 {
+public class TiposDatos {
     public static void main (String[] args) {
         byte b = Byte.MAX_VALUE;
         short s = Short.MAX_VALUE;

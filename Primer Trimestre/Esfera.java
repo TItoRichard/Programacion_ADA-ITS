@@ -8,8 +8,8 @@ public class Esfera {
     public static void main (String [] args) {
         System.out.print("Introduce un diametro de esfera: ");
         Scanner diametro = new Scanner (System.in);
-        Int r = diametro;
-        Int radio = r/2;
+        int r = diametro.nextInt();
+        int radio = r/2;
         System.out.println(radio);
     }
 }

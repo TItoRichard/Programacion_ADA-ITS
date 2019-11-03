@@ -6,9 +6,9 @@ public class Variables {
         System.out.println(""+a+b);
         System.out.println(""+(a+b));
         System.out.print(args[0]+" "+args[1]);
-        if (edad >= ){
+        if (edad >= 18){
             if (edad >= 80) {
-                System.out.prinln("No puede conducir");
+                System.out.println("No puede conducir");
             }else{
                 System.out.println("Puede conducir");
             }

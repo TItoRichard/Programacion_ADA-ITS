@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Conversiones {
     public static void main (String[] args) {
         System.out.print("Introduzca un caracter: ");
-        Scanner sc = Scanner(System.in);
+        Scanner sc = new Scanner (System.in);
         String texto = sc.nextLine();
 
         char caracter = texto.charAt(0);

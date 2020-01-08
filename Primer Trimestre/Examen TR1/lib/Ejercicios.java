@@ -11,6 +11,15 @@ public class Ejercicios {
 	public static int menu(){
 		int opcion = 0;
 		// Mostrar menu y pedir opcion
+		System.out.println("1. Añadir jugador extra.");
+		System.out.println("2. Eliminar jugador extra.");
+		System.out.println("3. Mostrar calificacion de un jugador");
+		System.out.println("4. Modificar la calificación de un jugador");
+		System.out.println("5. Buscar un jugador.");
+		System.out.println("6. Mostrar tabla completa");
+		System.out.println("7. Salir");
+		System.out.println("Elija una opción: ");
+		opcion = Leer.entero();
 		return opcion;
 	}
 
@@ -24,6 +33,9 @@ public class Ejercicios {
 	public static String[] rellenaNombres(int n){
 		String[] jugadores = new String[n];
 		// Rellenar array jugadores con los nombres de los jugadores
+		for (int i = 0; i < jugadores.length; i++) {
+			jugadores = Leer.texto("Introduzca el nombre del jugador: ");
+		}
 		return jugadores;
 	}
 	
@@ -51,6 +63,9 @@ public class Ejercicios {
 	 */
 	public static void mostrarJugadores(String[] jugadores){
 		// Mostrar los jugadores en lista numerada
+		for (int i = 0; i < jugadores.length; i++) {
+			System.out.println((i+1) + ". " + jugadores[i]);
+		}
 	}
 
 	/**		[1 PUNTO]

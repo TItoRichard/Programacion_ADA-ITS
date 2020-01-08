@@ -1,13 +1,16 @@
+import java.lang.reflect.Array;
+
 import lib.Ejercicios;
 import lib.Leer;
 
 public class Examen1T {
 
 	public static void main(String[] args) {
+		String[] jugadores = {"Paco", "Pedro", "Pablo", "Jose"};
 		int opcion = Ejercicios.menu();
 		switch (opcion) {
 			case 1:
-				
+				Ejercicios.mostrarJugadores(jugadores);
 				break;
 			case 2:
 				

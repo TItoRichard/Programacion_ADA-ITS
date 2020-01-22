@@ -6,31 +6,31 @@ public class EjercicioFor28 {
                     for (int l = 0; l <= 9; l++) {
                         for (int m = 0; m <= 9; m++) {
                             if (i == 3) {
-                                System.out.print("E");
+                                System.out.print("E-");
                             } else {
-                                System.out.print(i);
+                                System.out.print(i + "-");
                             }
                             if (j == 3) {
-                                System.out.print("E");
+                                System.out.print("E-");
                             } else {
-                                System.out.print(j);
+                                System.out.print(j + "-");
                             }
                             if (k == 3) {
-                                System.out.print("E");
+                                System.out.print("E-");
                             } else {
-                                System.out.print(k);
+                                System.out.print(k + "-");
                             }
                             if (l == 3) {
-                                System.out.print("E");
+                                System.out.print("E-");
                             } else {
-                                System.out.print(l);
+                                System.out.print(l + "-");
                             }
                             if (m == 3) {
                                 System.out.print("E");
                             } else {
                                 System.out.print(m);
                             }
-                            System.out.println(" ");
+                            System.out.println("");
                         }
                     }
                 }
